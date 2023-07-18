@@ -3,6 +3,7 @@ var fs = require('fs');
 
 const PORT = 8080;
 
+// npm start (nodemon - package.json)
 fs.watchFile('./yoprettyboy-email.html', function (curr, prev) {
     console.log('File changed, reloading...');
     fs.readFile('./yoprettyboy-email.html', function (err, html) {
