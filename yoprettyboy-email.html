@@ -117,7 +117,7 @@
                 margin: auto;
             }
             h2{
-                color:#000000;
+                color:#0C2340;
                 font-family:'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
                 font-size:24px;
                 font-style:normal;
@@ -127,7 +127,7 @@
                 text-align:left;
             }
             h3{
-                color:#000000;
+                color:#0C2340;
                 font-family:'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
                 font-size:20px;
                 font-style:normal;
@@ -137,7 +137,7 @@
                 text-align:left;
             }
             h4{
-                color:#000000;
+                color:#0C2340;
                 font-family:'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
                 font-size:16px;
                 font-style:normal;
@@ -169,7 +169,7 @@
                 padding-bottom:0;
             }
             .headerContainer .rc_content,.headerContainer .rc_content p{
-                color:#000000;
+                color:#0C2340;
                 font-family:'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
                 font-size:14px;
                 line-height:150%;
@@ -309,20 +309,12 @@
                 }
 
             }
-
-            .manage-subscription {
-                /* width: 178px;
-                height: 33px;
-                top: 407px;
-                left: 211px;
-                border-radius: 25px; */
-            }
             
             .blue-button {
-                width: 200px;
-                height: 33px;
-                top: 654px;
-                left: 211px;
+                width: 150px;
+                height: 20px;
+                /* top: 654px;
+                left: 211px; */
                 border-radius: 25px;
                 background-color: #0C2340;
                 border: 1px;
@@ -336,6 +328,9 @@
                 padding: 10px;
                 cursor: pointer;
                 vertical-align: middle;
+                display: block;
+                margin: auto;
+                text-decoration: none;
             }
 
             a {
@@ -432,10 +427,10 @@
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="rc_content__container">
                     <tbody>
                         <tr>
-                            <td valign="top" class="rc_content" style="padding: 0px 20px 8px;color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">
-                                <div class="header-logo">
-                                    <img src="https://cdn.shopify.com/s/files/1/0550/4444/0273/files/Prettyboy_Deep_navy_logo_6430f80e-ebad-4fbb-b46b-69cd72304e50_x320.png?v=1675878339" alt="PrettyBoy" class="hmHjN" style="max-width: min(100%, 107px);">
-                                </div>
+                            <td valign="top" class="rc_content" style="padding: 0px 20px 8px;color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">
+                                <!-- <div class="header-logo">
+                                </div> -->
+                                <img src="https://cdn.shopify.com/s/files/1/0550/4444/0273/files/Prettyboy_Deep_navy_logo_6430f80e-ebad-4fbb-b46b-69cd72304e50_x320.png?v=1675878339" alt="PrettyBoy" class="hmHjN" style="max-width: min(100%, 107px);">
                             </td>
                         </tr>
                     </tbody>
@@ -465,59 +460,81 @@
                 <![endif]-->
                 <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="rc_content__container">
                     <tbody>
+                        <!-- Thank you for subscribing-->
                         <tr>
-                            <td valign="top" class="rc_content" style="padding: 0px 20px 8px;color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">
+                            <td valign="top" class="rc_content" style="padding: 0px 20px 8px;color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 32px;text-align: center; font-weight: 900;">
+                                THANK YOU FOR SUBSCRIBING
+                            </td>
+                        </tr>
+                        <!--thank you for your purchase-->
+                        <tr>
+                            <td style="text-align: center;">
+                                <p style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Hi {{ name }},</p>
 
-                                <div class="header">
-                                    <h1 class="header-font">THANK YOU FOR SUBSCRIBING</h1>
-                                </div>
+                                <p style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Thank you for your purchase. Please review your subscription details below.<br>
+                                    &nbsp;</p>
+                            </td>
+                        </tr>
+                        <!-- MANAGING YOUR SUBSCRIPTION -->
+                        <tr>
+                            <td class="blue-divider">
+                                <p class="divider-text" style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 18px;text-align: center;">MANAGING YOUR SUBSCRIPTION</p>
+                            </td>
+                        </tr>
+                        <!--Change Frequency-->
+                        <tr>
+                            <td class="text-container">
+                                <p style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Change frequency, skip an order, add additional products to your delivery. or cancel orders anytime directly from your account in the link below.<br>
+                                    &nbsp;</p>
+                            </td>
+                        </tr>
+                        <!-- You can also Manage sub-->
+                        <tr>
+                            <td class="text-container">
+                                <p style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">You can also manage your subscription from our website under account > login.<br>&nbsp;
+                            </td>
+                        </tr>
+                        <!--TODO: MANAGE SUBSCRIPTION CTA-->
+                        <tr>
+                            <td>
+                                <a class="manage_subscription_link" href="{{ link }}" target="_blank" rel="noopener noreferrer" title="Manage subscription">
+                                    <input class="blue-button" type="text" value="MANAGE SUBSCRIPTION"></input>
+                                </a>
+                             </td>
+                        </tr> 
+                        <!-- TODO: REMOVE OLD MNG SUB CTA-->
+                        <!-- <tr>
+                            <td>
+                                <a class="manage_subscription_link" href="{{ link }}" target="_blank" rel="noopener noreferrer" title="Manage subscription">MANAGE SUBSCRIPTION</a></p>
+                            </td>
+                        </tr> -->
 
-                                <div style="text-align: center;">
-                                    <p style="color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Hi {{ name }},</p>
-
-                                    <p style="color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Thank you for your purchase. Please review your subscription details below.<br>
-                                        &nbsp;</p>
-
-                                </div>
-
-                                <!-- MANAGING YOUR SUBSCRIPTION -->
-                                <div class="blue-divider">
-                                    <p class="divider-text">MANAGING YOUR SUBSCRIPTION</p>
-                                </div>
-
-                                <div class="text-container">
-                                    <p style="color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Change frequency, skip an order, add additional products to your delivery. or cancel orders anytime directly from your account in the link below.<br>
-                                        &nbsp;</p>
-                                </div>
-
-                                    <div class="text-container">
-                                        <p style="color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">You can also manage your subscription from our website under account > login.<br>&nbsp;
-                                    </div>
-
-                                    <button class="blue-button" href="{{ link }}" target="_blank" rel="noopener noreferrer" title="Manage subscription">
-                                        MANAGE SUBSCRIPTION
-                                    </button>
-                                    
-                                <!-- TODO: REMOVE-->
-                                    <a class="manage_subscription_link" href="{{ link }}" target="_blank" rel="noopener noreferrer" title="Manage subscription">MANAGE SUBSCRIPTION</a></p>
-                            
-                                <div class="blue-divider">
-                                    <p class="divider-text">
-                                        1-TEXT SUBSCRIPTION MANAGEMENT
-                                    </p>
-                                </div>
-
-                                <div class="text-container">
-                                    <p style="color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Take control of your subscriptions with automated SMS reminders and order management all at the touch of your finger tips! Click the link below to sign up for text management.<br>&nbsp;
-                                </div>
-
-                                <div class="text-container">
-                                    <p style="color: #000000;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Remember to save the contact number as “PrettyBoy.” Text “modify” to make changes and get updates on your<br>&nbsp;
-                                </div>
-
-                                <div class="text-container">
-                                    <button class="blue-button"><a href="https://www.yoprettyboy.com/pages/subscription?_pos=1&_psq=sub&_ss=e&_v=1.0" target="_blank" style="color: #ffffff;">TEXT SIGN UP</a> </button>
-                                </div>
+                        <!--1-Text Sub MGMT-->
+                        <tr>
+                            <td class="blue-divider">
+                                <p class="divider-text" style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 18px;text-align: center;">
+                                    1-TEXT SUBSCRIPTION MANAGEMENT
+                                </p>
+                            </td>
+                        </tr>
+                        <!--Take Control-->
+                        <tr>
+                            <td class="text-container">
+                                <p style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Take control of your subscriptions with automated SMS reminders and order management all at the touch of your finger tips! Click the link below to sign up for text management.<br>&nbsp;
+                            </td>
+                        </tr>
+                        <!--Remember Save Contact-->
+                        <tr>
+                            <td class="text-container">
+                                <p style="color: #0C2340;font-family: Montserrat, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size: 14px;text-align: center;">Remember to save the contact number as “PrettyBoy.” Text “modify” to make changes and get updates on your<br>&nbsp;
+                            </td>
+                        </tr>
+                        <!--TEXT SIGN UP CTA-->
+                        <tr>
+                            <td>
+                                <a href="https://www.yoprettyboy.com/pages/subscription?_pos=1&_psq=sub&_ss=e&_v=1.0" target="_blank" style="color: #ffffff;">
+                                    <input class="blue-button" type="text" value="TEXT SIGN UP"></a>
+                                </a>
                             </td>
                         </tr>
                     </tbody>
